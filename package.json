@@ -1,0 +1,21 @@
+{
+  "name": "jwt-server",
+  "version": "1.0.0",
+  "description": "Simple express server for testing JWT auth",
+  "scripts": {
+    "start": "node_modules/.bin/babel-node index.js"
+  },
+  "author": "Jesse Hixson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "express-jwt-authz": "^1.0.0",
+    "jsonwebtoken": "^6.2.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
